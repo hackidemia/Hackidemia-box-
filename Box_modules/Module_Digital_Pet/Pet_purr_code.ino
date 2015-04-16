@@ -1,21 +1,22 @@
 
-int sensor pin = 0;
-int sensor threshold = 20;
- 
-int light normal; 
- 
+int sensorPin = 0;
+int threshold = 20;
+
+int speakerPin = 9;
+
+int lightNormal;
+
 void setup () {
-  light = normal analog read (have sensor);
+  lightNormal =  analogRead (sensorPin);
 }
-  
+
 void loop () {
   // Purr
-  if ( analog read (have sensor)> light sensor normal + threshold) {
+  if ( analogRead (sensorPin)> lightNormal + threshold) {
     tone (speakerPin, 0001);
   } else {
     noTone (speakerPin);
   }
- 
+
   delay (10);
 }
-
