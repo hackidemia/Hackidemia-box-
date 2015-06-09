@@ -1,0 +1,3 @@
+This Moisture Sensor can be used to detect the moisture of soil or judge if there is water around the sensor, let the plants in your garden reach out for human help. They can be very easy to use, just insert it into the soil and then read it. With the help of this sensor, it will be possible to make the plant remind you: Hey, I am thirsty now, please give me some water.
+In this project you will attach the sensor to A0 on the board and the two metal plates shuould be inserted in a flower pot filled with soil. Then, you can read the humidity values of the soil and, if you water it, yo will see the values change.
+Also, using the Processing sketch attached, you can see a realtime graph of the values as they change.
